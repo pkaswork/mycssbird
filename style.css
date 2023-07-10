@@ -1,0 +1,19 @@
+.bird {
+	position: relative;
+	margin: 0;
+	background-color: darkslategray;
+	width: 960px;
+	height: 960px;
+}
+
+/* Source */
+
+.bird__source {
+    position: absolute;
+/*    inset: 0;*/
+    content: url('bird.png');
+    opacity: 0.2;
+    pointer-events: none;
+    image-rendering: pixelated;
+}
+
