@@ -17,3 +17,27 @@
     image-rendering: pixelated;
 }
 
+.bird__head, 
+.bird__head * {
+	position: absolute;
+}
+
+.bird__head {
+	box-sizing: border-box;
+	top: 204px;
+	left: 228px;
+	width: 212px;
+	height: 212px;
+	/* background-image: conic-gradient(	
+	midnightblue 0 deg,
+	darkslateblue 90 deg,
+	deepskyblue 180 deg,
+	yellowgreen 270deg); */
+	background-image: conic-gradient(
+		from -45deg, 
+		midnightblue 0deg 90deg, darkslateblue 90deg 180deg, deepskyblue 180deg 270deg, yellowgreen 270deg 360deg);
+	border-radius: 50%;
+	border: 52px solid black;
+	border-color: yellowgreen deepskyblue darkslateblue midnightblue;
+	rotate: -45deg;
+}
