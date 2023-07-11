@@ -41,3 +41,19 @@
 	border-color: yellowgreen deepskyblue darkslateblue midnightblue;
 	rotate: -45deg;
 }
+
+.bird__head::after{
+	content: "";
+	box-sizing: border-box;
+	position: absolute;
+	left: 33px;
+	top: 33px;
+	display: block;
+	width: 41px;
+	height: 41px;
+	border-radius: 50%;
+	border: 3px solid black;
+	/* background: radial-gradient(black 0%, black 50%, transparent 50%, transparent 100%), darkorange; */
+	/* background: radial-gradient( black 50%, transparent 50%), darkorange; */
+	background: radial-gradient(white 13%, transparent 0%) -4px -4px ,  radial-gradient( black 50%, transparent 50%), darkorange;
+}
