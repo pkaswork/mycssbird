@@ -12,7 +12,7 @@
     position: absolute;
 /*    inset: 0;*/
     content: url('bird.png');
-    opacity: 0.2;
+    opacity: 0.15;
     pointer-events: none;
     image-rendering: pixelated;
 }
@@ -56,4 +56,32 @@
 	/* background: radial-gradient(black 0%, black 50%, transparent 50%, transparent 100%), darkorange; */
 	/* background: radial-gradient( black 50%, transparent 50%), darkorange; */
 	background: radial-gradient(white 13%, transparent 0%) -4px -4px ,  radial-gradient( black 50%, transparent 50%), darkorange;
+}
+
+/* Body */
+
+.bird__body,
+.bird__body * {
+	position: absolute;
+}
+
+.bird__body {
+	top: 223px;
+    left: 244px;
+    width: 504px;
+    
+    height: 504px;
+    background-image: 
+		radial-gradient(
+			deepskyblue 70%,
+			transparent 0	
+		),
+		linear-gradient( 
+			45deg,
+			lemonchiffon 42%, transparent 0
+		);
+	background-position: -122px 94px , 0 0;
+	background-size: 212px 212px, 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 50%;
 }
