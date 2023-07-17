@@ -85,3 +85,18 @@
 	background-repeat: no-repeat;
 	border-radius: 50%;
 }
+
+.bird__neck {
+    top: 5px;
+    left: 155px;
+    width: 175px;
+    height: 164px;
+    transform-origin: top left;
+    rotate: 41deg;
+    background: radial-gradient(at 50% 50%, deepskyblue 70%, transparent 0), 
+	linear-gradient(45deg, deepskyblue 50%, greenyellow 50%);
+	background-position: 70px 0,
+	0 0;
+	mask-image: linear-gradient( 94deg, white 94%, transparent 0 );
+	-webkit-mask-image: linear-gradient( 94deg, white 94%, transparent 0 );
+}
