@@ -180,3 +180,15 @@
     border-radius: 0 100% 0 0;
     background-color: darkorange;
 }
+
+/* legs */
+
+.bird__legs {
+    position: absolute;
+    top: 727px;
+    left: 484px;
+    width: 5px;
+    height: 109px;
+    background-color: black;
+    box-shadow: 22px 0 black;
+}
