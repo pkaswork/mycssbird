@@ -12,7 +12,7 @@
     position: absolute;
 /*    inset: 0;*/
     content: url('bird.png');
-    opacity: 0.15;
+    opacity: 0.4;
     pointer-events: none;
     image-rendering: pixelated;
 }
@@ -99,4 +99,58 @@
 	0 0;
 	mask-image: linear-gradient( 94deg, white 94%, transparent 0 );
 	-webkit-mask-image: linear-gradient( 94deg, white 94%, transparent 0 );
+}
+
+.bird__back {
+	top: 178px;
+    left: 200px;
+    height: 76px;
+    width: 38px;
+    background-color: midnightblue;
+    rotate: 45deg;
+	border-radius: 0 40px 40px 0;
+	box-shadow: 
+		39px 0 deepskyblue, 
+		78px 0 midnightblue, 
+		117px 0 deepskyblue, 
+		156px 0 midnightblue, 
+		193px 0 deepskyblue, 
+		232px 0 midnightblue, 
+		271px 0 deepskyblue, 
+		310px 0 midnightblue, 
+		349px 0 deepskyblue,
+		0px -80px midnightblue, 
+		39px -80px yellowgreen, 
+		78px -80px midnightblue, 
+		117px -80px yellowgreen, 
+		156px -80px midnightblue, 
+		193px -80px yellowgreen, 
+		232px -80px midnightblue, 
+		271px -80px yellowgreen, 
+		310px -80px midnightblue, 
+		349px -80px yellowgreen;
+		
+}
+
+/* Tail */
+
+.bird__tail {
+    top: -79px;
+    left: 387px;
+    height: 78px;
+    width: 145px;
+    background-color: midnightblue;
+    background-image: linear-gradient(
+		to top,
+		transparent 0 17px,
+		greenyellow 17px 22px,
+		transparent 22px 36px,
+		yellowgreen 36px 41px,
+		transparent 41px 56px,
+		lightskyblue 56px 60px,
+		transparent 60px 100%
+	);
+    background-position: 16px 0px;
+    background-size: 77% 100%;
+    background-repeat: no-repeat;
 }
