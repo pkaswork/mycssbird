@@ -192,3 +192,17 @@
     background-color: black;
     box-shadow: 22px 0 black;
 }
+
+/* Shadow */
+
+.bird__shadow {
+    position: absolute;
+    top: 794px;
+    left: 290px;
+    width: 414px;
+    height: 82px;
+    background-color: rgb(0 0 0 / 0.1);
+    border-radius: 50%;
+}
+
+/* Beak Клюв*/
