@@ -209,10 +209,13 @@
 
 .bird__beak {
     position: absolute;
-    top: 287px;
-    left: 84px;
-    height: 48px;
-    width: 146px;
-    background: black;
-	border-radius: 10px 0 0 0 / 10px 0 0 0;
+    left: 60px;
+    top: 288px;
+    width: 170px;
+    height: 70px;
+    background: radial-gradient(transparent 55%, darkgray 0)
+	-405px -9px / 800px 300px ;
+	background-repeat: no-repeat;
+    box-shadow: -100px 123px 0 -100px black inset;
+    border-radius: 100% 0 0 0 / 50px 0 0 0;
 }
