@@ -154,3 +154,29 @@
     background-size: 77% 100%;
     background-repeat: no-repeat;
 }
+
+/* Wing */
+
+.bird__wing {
+    top: 191px;
+    left: 90px;
+    width: 404px;
+    height: 354px;
+    /* background-color: red; */
+    background-image: conic-gradient(
+  from 299deg at 100% 100%,
+  darkolivegreen 16deg, 
+  transparent 0
+ );
+    border-radius: 180px 0 0 0;
+}
+
+.bird__wing::before {
+    content: '';
+    position: absolute;
+    inset: 2px 0 0 0;
+    width: 128px;
+    height: 128px;
+    border-radius: 0 100% 0 0;
+    background-color: darkorange;
+}
