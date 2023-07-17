@@ -206,3 +206,13 @@
 }
 
 /* Beak Клюв*/
+
+.bird__beak {
+    position: absolute;
+    top: 287px;
+    left: 84px;
+    height: 48px;
+    width: 146px;
+    background: black;
+	border-radius: 10px 0 0 0 / 10px 0 0 0;
+}
